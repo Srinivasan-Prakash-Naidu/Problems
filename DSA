@@ -4,3 +4,8 @@ class Solution:
             nums1.remove(0)
             nums1.append(nums2[i])
         nums1.sort() 
+majority element 
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        nums.sort()
+        return nums[len(nums) // 2]
